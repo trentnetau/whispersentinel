@@ -1,0 +1,12 @@
+{
+    "_comment": "Whisper Sentinel configuration file - please change your values here and save before launching",
+	"threshold": 10,
+    "max_silent_samples": 600,
+    "log_file": "audiomonitor-0.1.79-level.log",
+    "to_addresses": ["youremail@addressforalerts.com"],
+    "sender_email": "emailyousendalerts@fromonline.com",
+    "sender_name": "raspberrypi Test Audio",
+    "sender_password": "Passwordforemailoutgoing",
+    "smtp_server": "smtpserver.ofyourmailbox.com",
+    "smtp_port": 465
+}
