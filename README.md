@@ -1,8 +1,9 @@
 # Whisper Sentinel
-Whisper Sentinel is a Python based tool that will assist with monitoring of an audio source for gaps in the audio being provided, for which alerting will be provided over email and logged in a file stored on the originating system.
-This system is most helpful for Radio Broadcast applications, where a break in programming can impact the listening experience for those tuned into the broadcast and impact revenue for the station.
+Whisper Sentinel is a Python based tool that will assist with monitoring of an audio source for gaps in the audio that is being monitored, for which alerting will be provided over email and logged in a file stored on the originating system.
 
-The tool is a single flat file which requires only a few lines of configuration once your system is properly configured to run the tool. It is designed to function on anything from a small single board computer to a virtual machine or desktop, as long as you have a way of providing the application with an audio input source it can listen to.
+This system is most helpful for terrestrial and online radio broadcast applications, where a break in programming can impact the listening experience for those tuned into the broadcast and impact revenue for the station.
+
+The tool is a  which requires only a few lines of configuration once your system is properly configured to run the tool. It is designed to function on anything from a small single board computer to a virtual machine or desktop, as long as you have a way of providing the application with an audio input source it can listen to.
 
 The essence of the tool was derived from a project by Miro - https://www.mirobarsa.com/technology/real-time-detect-silence-from-audio-input-in-linux/ but contains some adaptions to improve it's usability.
 
