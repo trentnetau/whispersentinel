@@ -12,14 +12,11 @@ The essence of the tool was derived from a project by Miro - https://www.mirobar
 I'm a coding amateur, this is being flung out into the public with the understanding that I'm finding tricks as I go along as well...so if you've spotted something I don't know about or have an idea on something you wish to share, be sure to hit me up.
 
 ## Legal stuff
-**This script is provided under an MIT License.**
+This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
-**Copyright (c) 2025 Trent Geddes.**
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
-**Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is provided to do so, subject to the following conditions:
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software, in it's entirety without edits.**
-
-**THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.**
+You should have received a copy of the GNU General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>
 
 ## Getting Started
 At this early on in the piece, this one is for the tinkerers with some Linux experience (tested on Raspberry Pi OS) who are able to run a few commands to source appropriate packages and make some basic configuration changes.
