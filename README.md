@@ -21,7 +21,7 @@ You should have received a copy of the GNU General Public License along with thi
 ## Getting Started
 At this early on in the piece, this one is for the tinkerers with some Linux experience (tested on Raspberry Pi OS) who are able to run a few commands to source appropriate packages and make some basic configuration changes.
 
-This device is designed to operate on a Raspberry Pi and has tested thus far on the 2B, 3B+ and 5 models which are 64bit devices with 4gb or more memory with a USB Audio Device.
+This device is designed to operate on a Raspberry Pi and has tested thus far on the 2B which is 32bit, 3B+ and 5 models which are 64bit devices with 4gb or more memory with a USB Audio Device.
 
 Once you have a system that is suitably configured (OS setup how you like it, logins, hostname and access to SSH), you can dive right into the software we will need to make this one work.
 
