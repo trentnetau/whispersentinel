@@ -49,10 +49,6 @@ Any email addresses that you want to send an alert to will need to be included i
 Last stop is to ensure that the audio can be seen and heard by the tool, complete a lookup of the sound devices by the command `pactl list sources` and find out the number of the device in question.
 Set the audio device using the command `pactl set-default-source x` and if you don't get any feedback from executing the command, then you've been able to select an active sound device.
 
-Before launching the script I would suggest completing a check on input settings on the capture channel using alsamixer, press F6 when in the application to select your sound device and F5 to then show all controls for which you can tweak by scrolling across to select the capture fader and then use up and down arrows to change levels. Pressing Esc will exit the mixer, from this you can launch the script to test the outcome.
-
-![Screenshot 2025-01-25 143204](https://github.com/user-attachments/assets/f2450381-8a3f-42e9-ae4f-c8773300c48c)
-
 You can start the script by typing `python3 whispersentinel-0.1.80.py` which if all goes correctly should then display a screen in the terminal displaying `Audio Input VU: xx.xx =======` which will refresh with incoming audio. By this point if you have your email on hand you should have already recieved an email notification to indicate the script has launched and is detecting audio.
 
 I like to test it's inital run out with a test audio source, something that I can silence for more than 8 seconds which will enable the sending/logging of the Silence Trigger and commencement of the count on off air. As soon as audio returns the sending/logging of Audio Return is communicated detailing the seconds between off air detection and audio return.
