@@ -1,5 +1,6 @@
 # Whisper Sentinel
 ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/trentnetau)
 
 ![WhisperSentinel-Github](https://github.com/user-attachments/assets/3d724048-3b57-43d8-a686-3733678704ac)
 ### The long and short of it
@@ -12,6 +13,8 @@ The tool is a 2 file download (main python file and config json) which requires 
 The essence of the tool was derived from a project by Miro - https://www.mirobarsa.com/technology/real-time-detect-silence-from-audio-input-in-linux/ but contains some adaptions to improve it's usability.
 
 I'm a coding amateur, this is being flung out into the public with the understanding that I'm finding tricks as I go along as well...so if you've spotted something I don't know about or have an idea on something you wish to share, be sure to hit me up.
+
+Be sure to consider buying me a coffee if you find this script useful https://www.buymeacoffee.com/trentnetau and let me know if you have any ideas or would like to talk more about it via my website https://www.trent.net.au/
 
 ### Legal stuff
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
