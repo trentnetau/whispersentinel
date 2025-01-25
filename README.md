@@ -44,17 +44,21 @@ This script will require an active email address to send out alerts so be sure t
 Any email addresses that you want to send an alert to will need to be included in the `to_addresses` field, the format for entering more than one email is to add an email with quotations followed by a comma and space then the next email address in quotation marks. Exit your editor by Ctrl + X and pressing Y to save the file.
 
 Last stop is to ensure that the audio can be seen and heard by the tool, complete a lookup of the sound devices by the command `pactl list sources` and find out the number of the device in question.
-Set the audio device using the command `pactl set-default-source x` and if you don't get any feedback from that command you are good to go.
+Set the audio device using the command `pactl set-default-source x` and if you don't get any feedback from executing the command, then you've been able to select an active sound device.
+
+Before launching the script I would suggest completing a check on input settings on the capture channel using alsamixer, press F6 when in the application to select your sound device and F5 to then show all controls for which you can tweak by scrolling across to select the capture fader and then use up and down arrows to change levels. Pressing Esc will exit the mixer, from this you can launch the script to test the outcome.
+
+![Screenshot 2025-01-25 143204](https://github.com/user-attachments/assets/f2450381-8a3f-42e9-ae4f-c8773300c48c)
 
 You can start the script by typing `python3 whispersentinel-0.1.80.py` which if all goes correctly should then display a screen in the terminal displaying `Audio Input VU: xx.xx =======` which will refresh with incoming audio. By this point if you have your email on hand you should have already recieved an email notification to indicate the script has launched and is detecting audio.
 
 I like to test it's inital run out with a test audio source, something that I can silence for more than 8 seconds which will enable the sending/logging of the Silence Trigger and commencement of the count on off air. As soon as audio returns the sending/logging of Audio Return is communicated detailing the seconds between off air detection and audio return.
 
-The current instance has no cronjob to run it on startup, you will need to use your smarts to figure this out if you really want to run it in production.
+The current instance has no cronjob to run it on startup, which will require the script to be manually launched should you have power loss or restarts to the Pi. You will need to make a script for this and add it to crontab, here's a guide on how you can do this - https://www.instructables.com/Raspberry-Pi-Launch-Python-script-on-startup/.
 
-### Can it do anything more than this?
-Not right now it can't. I managed to spend a few days on this to make a functional detection tool for a simple task and this is the result.
+### I wouldn't mind my Whisper Sentinal instance being able to xxx in addition to what it currently does
+At the moment it's a simple functioning script with a few smarts to reduce the liklihood of errors during operation, so the answer will be not at this time. I managed to spend a few days on this to make a functional detection tool for a simple task and this is the result.
 
-I've got plenty of ideas, but I want to improve the essentials first after I have checked compatability across the range of Raspberry Pi models for which it was designed primarily to run on.
+I've got some ideas and you might also have a few too, but they will come later on down the track. Feel free to reach out to me via my website https://www.trent.net.au/ if you've got some feedback.
 
-I'd love to bundle up a script to complete the manual system config stuff, along with expanding the documentation (knowing how to use Git would be good too) and adding some more capabilities.
+One of the plans I have in mind is to bundle up scripts to make it simple to add your configs, add the startup script along with expanding the documentation (knowing how to use Git would be good too) and adding some more capabilities.
