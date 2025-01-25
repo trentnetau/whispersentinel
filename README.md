@@ -1,6 +1,8 @@
 # Whisper Sentinel
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Raspberry Pi](https://img.shields.io/badge/-Raspberry_Pi-C51A4A?style=for-the-badge&logo=Raspberry-Pi)
 
-## The long and short of it
+![WhisperSentinel-Github](https://github.com/user-attachments/assets/3d724048-3b57-43d8-a686-3733678704ac)
+### The long and short of it
 Whisper Sentinel is a Python based tool that will assist with monitoring of an audio source for gaps in the audio that is being monitored, for which alerting will be provided over email and logged in a file stored on the originating system.
 
 This system is most helpful for terrestrial and online radio broadcast applications, where a break in programming can impact the listening experience for those tuned into the broadcast and impact revenue for the station.
@@ -11,17 +13,17 @@ The essence of the tool was derived from a project by Miro - https://www.mirobar
 
 I'm a coding amateur, this is being flung out into the public with the understanding that I'm finding tricks as I go along as well...so if you've spotted something I don't know about or have an idea on something you wish to share, be sure to hit me up.
 
-## Legal stuff
+### Legal stuff
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
 This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License along with this program.  If not, see <https://www.gnu.org/licenses/>
 
-## Getting Started
+### Getting Started
 At this early on in the piece, this one is for the tinkerers with some Linux experience (tested on Raspberry Pi OS) who are able to run a few commands to source appropriate packages and make some basic configuration changes.
 
-This device is designed to operate on a Raspberry Pi and has tested thus far on the 2B which is 32bit, 3B+ and 5 models which are 64bit devices with 4gb or more memory with a USB Audio Device.
+This device is designed to operate on a Raspberry Pi and has tested optimally on 3B, 4B and 5 models which are 64bit devices with 4gb or more memory with a USB Audio Device. I have tested the script on 2B and it does work, but I have noted more errors running under a slower CPU and 32bit architecture so I wouldn't recommend it personally.
 
 Once you have a system that is suitably configured (OS setup how you like it, logins, hostname and access to SSH), you can dive right into the software we will need to make this one work.
 
@@ -50,7 +52,7 @@ I like to test it's inital run out with a test audio source, something that I ca
 
 The current instance has no cronjob to run it on startup, you will need to use your smarts to figure this out if you really want to run it in production.
 
-## Can it do anything more than this?
+### Can it do anything more than this?
 Not right now it can't. I managed to spend a few days on this to make a functional detection tool for a simple task and this is the result.
 
 I've got plenty of ideas, but I want to improve the essentials first after I have checked compatability across the range of Raspberry Pi models for which it was designed primarily to run on.
